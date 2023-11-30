@@ -1,0 +1,29 @@
+.info-card > div{
+    background-color: #F8F9FA;
+    width: 350px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-cards-parent{
+    display: flex;
+    gap: 1em
+}
+
+/* .info-card{
+    margin: em;
+} */
+
+.information-cards > article{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.xicon > svg {
+    color: #1E90FF;
+}

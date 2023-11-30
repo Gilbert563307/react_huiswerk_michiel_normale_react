@@ -1,0 +1,40 @@
+footer {
+  background-color: #2f3542;
+  /* height: 150px; */
+  color: white;
+}
+
+.main-article {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.main-article > article {
+  margin-top: 1em;
+}
+
+.about-us {
+  width: 25%;
+}
+
+.navigation > ul {
+  list-style-type: none;
+}
+.navigation > ul > li > a {
+  text-decoration: none;
+}
+
+.info-logo > h5 {
+  align-self: baseline;
+}
+
+.info-logo > div > img {
+  height: 50px;
+  width: 50px;
+}
+
+.info-logo > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,36 @@
+.own-navbar{
+    /* display: flex; */
+    background-color: #FFFFFF;
+    /* justify-content: space-evenly; */
+    margin: 0.5em;
+}
+
+.nav-header{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar-content{
+    display: flex;
+}
+
+.navbar-items{
+    display: flex;
+    gap: 1em;
+}
+.navbar-items > li {
+    list-style-type: none;
+}
+
+.navbar-items > li > a{
+    color:#758FA4;
+    text-decoration: none;
+}
+
+.active-item{
+  color: black !important;  
+}
+
+/* .shadow{
+    box-shadow: 0px 15px 10px -15px #111;  
+} */
