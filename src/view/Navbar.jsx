@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import "../assets/css/navbar.css";
 import NavbarLogic from "../model/NavbarLogic";
+import { Link } from 'react-router-dom';
 
 
 export default function Navbar() {
@@ -24,7 +25,16 @@ export default function Navbar() {
         <div className='navbar-content'>
           <ul className='navbar-items'>
             {navItems.map((obj, key) => {
-              return <li><a key={key} className={key === selectedItem ? "active-item" : ""} onClick={() => setActiveItem(key)} href={obj.href}>{obj.name}</a></li>
+              return <li>
+                <Link
+                  key={key}
+                  to={obj.href}
+                  className={key === selectedItem ? "active-item" : ""}
+                  onClick={() => setActiveItem(key)}
+                >
+                  {obj.name}
+                </Link>
+              </li>
             })}
           </ul>
         </div>

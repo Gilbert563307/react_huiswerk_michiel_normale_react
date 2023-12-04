@@ -1,11 +1,10 @@
 import React from 'react'
-
-import Homepage from '../view/Homepage'
+import DefaultLayout from '../view/layouts/DefaultLayout'
 
 export default function MainController() {
   return (
     <main>
-      <Homepage></Homepage>
+      <DefaultLayout></DefaultLayout>
     </main>
   )
 }

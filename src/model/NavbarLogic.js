@@ -2,12 +2,12 @@
 
 export default function NavbarLogic(){
     const navItems = [
-        { href: "#", name: "Home" },
+        { href: "/home", name: "Home" },
         { href: "#", name: "Solutions" },
         { href: "#", name: "Pricing" },
         { href: "#", name: "About Us" },
         { href: "#", name: "Pricing" },
-        { href: "#", name: "Contact" },
+        { href: "/contact", name: "Contact" },
     ];
     const getNavigation = () => {
         return navItems;

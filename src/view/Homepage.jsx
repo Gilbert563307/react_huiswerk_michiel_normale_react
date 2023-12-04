@@ -7,13 +7,11 @@ import "../assets/css/Homepage.css";
 
 export default function Homepage() {
     return (
-        <section>
-            <Navbar></Navbar>
+        <>
             <Header></Header>
             <article className='content-article'>
                 <ContentSection></ContentSection>
             </article>
-            <Footer />
-        </section>
+        </>
     )
 }
