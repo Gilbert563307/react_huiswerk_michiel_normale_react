@@ -5,7 +5,7 @@
   align-items: center;
 }
 
-.content-section > article:first{
+.content-section > article:nth-child(1), article:nth-child(2){
     width: 55%;
 }
 
